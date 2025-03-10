@@ -1,0 +1,39 @@
+{
+    "name": "skynettechnologies/flarum-all-in-one-accessibility",
+    "description": "Quick Web Accessibility Implementation with All In One Accessibility!",
+    "keywords": [
+        "extension",
+        "flarum",
+        "all-in-one-accessibility"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rajesh Bhimani",
+            "email": "developer3@skynettechnologies.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "All in One Accessibility",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-universal-access",
+                "backgroundColor": "#420083",
+                "color": "#FFF"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Skynettechnologies\\AllinOneAccessibility\\": "src/"
+        }
+    },
+    "require-dev": {
+        "flarum/phpstan": "*"
+    }
+}

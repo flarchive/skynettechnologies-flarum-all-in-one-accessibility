@@ -1,0 +1,262 @@
+.skynettechnologies-all-in-one-accessibility-Page .Form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;  /* Provide space between fields */
+    margin-left: -15px;
+    margin-right: -15px;
+    justify-content: flex-start;
+    max-width: 720px;
+}
+.skynettechnologies-all-in-one-accessibility-Page .Form > * {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;  /* Make sure the font size is readable */
+    box-sizing: border-box;
+}
+.skynettechnologies-all-in-one-accessibility-Page .Form > *:nth-child(6),
+.skynettechnologies-all-in-one-accessibility-Page .Form > *:nth-child(10) {
+    margin-bottom: 10px;
+}
+.skynettechnologies-all-in-one-accessibility-Page .Form > *:nth-child(7),
+.skynettechnologies-all-in-one-accessibility-Page .Form > *:nth-child(12) {
+    margin-bottom: 24px;
+}
+.skynettechnologies-all-in-one-accessibility-Page .Form > *:nth-child(7),
+.skynettechnologies-all-in-one-accessibility-Page .Form > *:nth-child(12) {
+font-size: 14px;
+}
+.skynettechnologies-all-in-one-accessibility-Page .Form .aioa-widget-position-wrapper,
+.skynettechnologies-all-in-one-accessibility-Page .Form .aioa-widget-size-wrapper {
+    margin-bottom: 24px;
+}
+.skynettechnologies-all-in-one-accessibility-Page .Form .aioa-custom-position-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.skynettechnologies-all-in-one-accessibility-Page .Form .aioa-custom-position-wrapper > * {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.skynettechnologies-all-in-one-accessibility-Page .Form .aioa-custom-position-wrapper .custom-position-controls {
+    width: 100%;
+}
+.skynettechnologies-all-in-one-accessibility-Page .Form label {
+    font-size: 18px;
+}
+
+.skynettechnologies-all-in-one-accessibility-Page .Form div {
+    font-size: 18px;
+}
+.hide
+{
+    display:none !important;
+}
+.skynettechnologies-all-in-one-accessibility-Page .Form button[type="submit"] {
+    max-width: 150px;
+    padding: 10px;
+    background-color: #667c99;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.skynettechnologies-all-in-one-accessibility-Page .Form h3 {
+    font-size: 22px;
+}
+
+.skynettechnologies-all-in-one-accessibility-Page .Select {
+    width: 47%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;  /* Initially hidden */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;  /* Make sure the loader is on top */
+}
+
+.spinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;  /* Adjust size if needed */
+    height: 50px; /* Adjust size if needed */
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content img {
+    max-width: 510px; /* Adjust image size */
+    height: auto;
+}
+
+
+/* ===== Form Card Container ===== */
+.skynettechnologies-all-in-one-accessibility-Page .Form {
+    background: #ffffff;
+    border: 1px solid #d8dee4;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 30px auto;
+    max-width: 720px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+/* Title Styling */
+.skynettechnologies-all-in-one-accessibility-Page .Form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Better spacing between form fields */
+.skynettechnologies-all-in-one-accessibility-Page .Form-group {
+    margin-bottom: 18px;
+}
+
+/* Label improvements */
+.skynettechnologies-all-in-one-accessibility-Page .Form label {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/* Inputs & Select width */
+.skynettechnologies-all-in-one-accessibility-Page .FormControl,
+.skynettechnologies-all-in-one-accessibility-Page .Select-input {
+    width: 100%;
+    max-width: 420px;  /* Allow for wider dropdowns */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Padding and margin fix */
+/* Ensure dropdown selects are wide enough */
+.skynettechnologies-all-in-one-accessibility-Page .Form select,
+.skynettechnologies-all-in-one-accessibility-Page .Select-input {
+    width: 100%;  /* Make select dropdown full-width */
+    max-width: 450px;  /* Give more space for larger text */
+    padding: 10px;  /* Add padding for better spacing */
+    font-size: 14px;  /* Adjust font size */
+    text-overflow: ellipsis;  /* Truncate text if it's too long */
+    white-space: nowrap;  /* Prevent text wrapping */
+    overflow: hidden;  /* Hide overflow */
+}
+
+/* Description spacing fix */
+.skynettechnologies-all-in-one-accessibility-Page .Form p {
+    font-size: 14px;
+    margin-top: -14px;
+}
+
+.skynettechnologies-all-in-one-accessibility-Page .Select-value-label {
+    overflow: visible;  /* Ensure that the text isn't hidden */
+    text-overflow: clip; /* Ensure text wraps or shows fully */
+    white-space: normal; /* Allow wrapping if needed */
+}
+
+/* Fix specific dropdown (e.g., for "Bottom Center", "Regular" options) */
+.skynettechnologies-all-in-one-accessibility-Page .Form select#position,
+.skynettechnologies-all-in-one-accessibility-Page .Form select#widget_size,
+.skynettechnologies-all-in-one-accessibility-Page .Form select#aioa_icon_type {
+    width: 100%;  /* Ensure full width */
+    padding: 10px;
+    font-size: 14px;
+    max-width: 450px; /* Increased width */
+    white-space: nowrap;  /* Prevent text overflow */
+}
+
+/* Checkbox alignment */
+.skynettechnologies-all-in-one-accessibility-Page .Checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Help text */
+.skynettechnologies-all-in-one-accessibility-Page .helpText {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+/* Save button center */
+.skynettechnologies-all-in-one-accessibility-Page .Form button[type="submit"] {
+    display: block;
+    margin: 25px auto 0 auto;
+}
+
+/* Improve form alignment and spacing */
+
+.skynettechnologies-all-in-one-accessibility-Page .Form {
+    max-width: 720px;
+}
+
+/* make inputs wider */
+.skynettechnologies-all-in-one-accessibility-Page .FormControl,
+.skynettechnologies-all-in-one-accessibility-Page .Select-input {
+    width: 100%;
+    max-width: 420px;
+}
+
+/* better spacing between groups */
+.skynettechnologies-all-in-one-accessibility-Page .Form-group {
+    margin-bottom: 20px;
+}
+
+/* spacing for helper text */
+.skynettechnologies-all-in-one-accessibility-Page .Form .helpText {
+    margin-top: 4px;
+}
+
+/* toggle alignment */
+.skynettechnologies-all-in-one-accessibility-Page .Checkbox {
+    margin-top: 8px;
+}
+
+/* center button better */
+.skynettechnologies-all-in-one-accessibility-Page .Form button[type="submit"] {
+    margin-top: 25px;
+}
+
+/* small note text */
+.skynettechnologies-all-in-one-accessibility-Page .Form > div {
+    font-size: 14px;
+}
+
+/* Fix text overflow in dropdown options */
+.skynettechnologies-all-in-one-accessibility-Page .Select-option {
+    white-space: normal;  /* Allow option text to wrap */
+    word-wrap: break-word;  /* Break long words for better visibility */
+    overflow: visible;
+}
+

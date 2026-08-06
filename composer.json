@@ -1,0 +1,40 @@
+{
+    "name": "skynettechnologies/flarum-all-in-one-accessibility",
+    "description": "Quick Web Accessibility Implementation with All in One Accessibility®!",
+    "keywords": [
+        "extension",
+        "flarum",
+        "all-in-one-accessibility"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Skynet Technologies USA LLC",
+            "email": "developer3@skynettechnologies.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.2"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "All in One Accessibility®",
+            "category": "feature",
+            "icon": {
+                "image": "resources/assets/logo.png",
+                "backgroundSize": "95%",
+                "backgroundRepeat": "no-repeat",
+                "backgroundPosition": "center"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Skynettechnologies\\AllinOneAccessibility\\": "src/"
+        }
+    },
+    "require-dev": {
+        "flarum/phpstan": "*"
+    }
+}

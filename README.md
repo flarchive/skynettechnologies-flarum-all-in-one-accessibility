@@ -2,13 +2,17 @@
 
 > **Read-only archive of released versions of skynettechnologies/flarum-all-in-one-accessibility.** Not for installation: use [Packagist](https://packagist.org/packages/skynettechnologies/flarum-all-in-one-accessibility) or the [upstream repository](https://github.com/skynettechnologies/flarum-all-in-one-accessibility).
 
-**0** versions archived · Latest: [`1.0.4`](https://github.com/flarchive/skynettechnologies-flarum-all-in-one-accessibility/tree/archive/v1.0.4) · License: `MIT` · Flarum: `^1.2`
+**5** versions archived · Latest: [`1.0.4`](https://github.com/flarchive/skynettechnologies-flarum-all-in-one-accessibility/tree/archive/v1.0.4) · License: `MIT` · Flarum: `^1.2`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0` | 2025-03-10 | `^1.2.0` | [Browse](https://github.com/flarchive/skynettechnologies-flarum-all-in-one-accessibility/tree/archive/v1.0.0) |
+| `1.0.1` | 2025-10-29 | `^1.2.0` | [Browse](https://github.com/flarchive/skynettechnologies-flarum-all-in-one-accessibility/tree/archive/v1.0.1) |
+| `1.0.2` | 2026-03-24 | `^1.2` | [Browse](https://github.com/flarchive/skynettechnologies-flarum-all-in-one-accessibility/tree/archive/v1.0.2) |
+| `1.0.3` | 2026-05-07 | `^1.2` | [Browse](https://github.com/flarchive/skynettechnologies-flarum-all-in-one-accessibility/tree/archive/v1.0.3) |
+| `1.0.4` | 2026-08-06 | `^1.2` | [Browse](https://github.com/flarchive/skynettechnologies-flarum-all-in-one-accessibility/tree/archive/v1.0.4) |
 
 Catalog entry: [packages/skynettechnologies-flarum-all-in-one-accessibility.json](https://github.com/flarchive/archive-index/blob/main/packages/skynettechnologies-flarum-all-in-one-accessibility.json)
 
